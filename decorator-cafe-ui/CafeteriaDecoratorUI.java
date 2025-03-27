@@ -2,7 +2,11 @@
 import javax.swing.*; // Contém classes como JFrame, JButton, JLabel etc.
 import java.awt.*; // Fornece classes para trabalhar com layout, cor, fonte etc.
 
-
+/*
+ * Interface base do padrão Decorator
+ * Todo tipo de café implementará essa interface.
+ * Define dois métodos: descrição do produto e preço.
+ */
 interface Cafe {
     String descricao(); // Retorna a descrição do café
     double preco();     // Retorna o valor total do café
