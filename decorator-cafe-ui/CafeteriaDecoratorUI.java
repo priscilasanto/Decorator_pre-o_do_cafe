@@ -1,4 +1,4 @@
-// Importações necessárias para construir a interface gráfica com Swing
+
 import javax.swing.*; // Contém classes como JFrame, JButton, JLabel etc.
 import java.awt.*; // Fornece classes para trabalhar com layout, cor, fonte etc.
 
